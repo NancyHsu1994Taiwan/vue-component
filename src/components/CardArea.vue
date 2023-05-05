@@ -7,16 +7,16 @@ export default {
       newData: []
     })
     function test() {
-      console.log(1, data)
+      // console.log(1, data)
     }
 
     function getData() {
       axios
         .get('https://raw.githubusercontent.com/hexschool/js-training/main/travelApi.json')
         .then((res) => {
-          console.log(res)
+          // console.log(res)
           data.newData = res.data.data
-          console.log(2, data)
+          // console.log(2, data)
         })
         .catch((err) => {
           console.log(err)
