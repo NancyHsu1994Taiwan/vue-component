@@ -1,0 +1,1 @@
+import{_ as o,C as t,r as s,o as n,c as a,a as c}from"./index-c5110e73.js";const _={components:{Card:t}},r={class:"about"};function p(d,i,u,l,m,f){const e=s("Card");return n(),a("div",r,[c(e)])}const v=o(_,[["render",p]]);export{v as default};
